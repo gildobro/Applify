@@ -19,3 +19,5 @@ npm start
 ```
 
 - visit url http://localhost:3000/
+
+- resource [Generate Favicons](https://favicon.io/)
