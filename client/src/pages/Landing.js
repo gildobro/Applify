@@ -1,6 +1,7 @@
-import freelancer from "../assets/images/undraw_freelancer_re_irh4.svg";
-import Wrapper from "../assets/wrappers/LandingPage";
-import { Logo } from "../components";
+import freelancer from '../assets/images/undraw_freelancer_re_irh4.svg';
+import Wrapper from '../assets/wrappers/LandingPage';
+import { Logo } from '../components';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
 	return (
@@ -19,7 +20,9 @@ const Landing = () => {
 						polaroid pour-over freegan lomo put a bird on it bitters kickstarter
 						chia 3 wolf moon humblebrag.
 					</p>
-					<button className='btn btn-hero'>Login/Register</button>
+					<Link to='/register' className='btn btn-hero'>
+						Login/Register
+					</Link>
 				</div>
 				<img src={freelancer} alt='job hunt' className='img main-img' />
 			</div>
