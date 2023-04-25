@@ -4,7 +4,6 @@
 
 Project in Action - [Applify](https://www.jobify.live/)
 
-
 #### Run The App Locally
 
 ```sh
@@ -21,3 +20,8 @@ npm start
 - visit url http://localhost:3000/
 
 - resource [Generate Favicons](https://favicon.io/)
+
+### Technologies and Methods Used
+
+- Styled Components
+- Set up index.js file in every folder with multiple components for cleaner imports
